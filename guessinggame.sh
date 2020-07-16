@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 COUNT=$(($(ls -l | wc -l)-1))
 echo -e  "Insert the amout of files on this directory: \n$PWD" 
